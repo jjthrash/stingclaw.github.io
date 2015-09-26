@@ -1,55 +1,105 @@
 <!DOCTYPE html>
 <html>
- <head>
-    <title>Only pixels in the box!</title>
+  <head>
+    <title>Game Archive</title>
     <style>
-    h1 {
-      color: white;
-      background-color: navy;
-      text-align: center;
-      font-family: Trajan Pro;
-      font-size: 70;
-      padding: 20px;
-      font-variant-caps: small-caps;
-    }
-    body {
-      background-color: yellow;
-    }
+      body {
+        background-color: #fff;
+        font-family: "Helvetica", "Helvetica", sans-serif;
+        font-size: 12px;
+        margin: 10px;
+      }
+      .title {
+        font-weight: bold;
+        font-variant-caps: none;
+        font-size: 30px;
+        padding-top: 20px;
+      }
+      .subtitle {
+        font-weight: normal;
+        color: gray;
+        padding-top:10px;
+        font-size: 15px;
+      }
+      hr {
+        margin-top: 10px;
+        margin-bottom: 25px;
+      }
+      .pt {
+        font-weight:bold;
+        font-size: 18px;
+      }
+      a {
+        color: #666;
+        text-decoration: none;
+      }
+      footer {
+        background-color: #fff;
+        font-family: "Helvetica", "Helvetica", sans-serif;
+        font-size: 12px;
+        text-align: center;
+      }
+      .footer{
+        margin-bottom:10px;
+        margin-top:25px;
+      }
     </style>
-</head>
- <body>
+  </head>
+  <body>
+  <blockquote>
+    <div class="title">
+      ProcessingJS Game Archive
+    </div>
+    <div class="subtitle">
+      by Chip Thrasher
+    </div>
+    <hr>
+    <a target="_blank" href="https://www.khanacademy.org/computer-programming/the-ball/6460809613017088">
+    <img width="200" src="https://www.khanacademy.org/computer-programming/the-ball/6460809613017088/5668600916475904.png"><br><br>
+    <span class="pt" width="200" align="center">THE BALL</span><br><br>
+  </a>
 
-   <h1>The Pixel Finder</h1>
-    <p align="center">
-      <canvas id="pixel"></canvas>
-    </p>
- </body>
+    <a target="_blank" href="https://www.khanacademy.org/computer-programming/iphone-70-advertisement/6060155081981952">
+    <img width="200" src="https://www.khanacademy.org/computer-programming/iphone-70-advertisement/6060155081981952/5741031244955648.png"><br><br>
+    <span class="pt" width="200" align="center">iPHONE 7.0 ADVERTISEMENT</span><br><br>
+  </a>
 
- <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script>
+    <a target="_blank" href="https://www.khanacademy.org/computer-programming/colors-of-the-rainbow/5250221553614848">
+    <img width="200" src="https://www.khanacademy.org/computer-programming/colors-of-the-rainbow/5250221553614848/5685265389584384.png"><br><br>
+    <span class="pt" width="200" align="center">THE COLORS OF THE RAINBOW</span><br><br>
+  </a>
 
- <script>
-    var sketchProc = function(processingInstance) {
-     with (processingInstance) {
-        size(400, 400);
-        frameRate(30);
-        var draw = function() {
-    background(mouseX, mouseY, 0);
-    var f = createFont("Trajan Pro",50);
-    textFont(f);
-    fill(0, 114, 143);
-    text(mouseX,145,122);
-    fill(0, 79, 11);
-    textFont(f);
-    text(mouseY,145,163);
-    noStroke();
-    fill(255, 0, 0);
-    rect(mouseX,-2,5,500);
-    rect(-2,mouseY,500,5);
-};
+    <a target="_blank" href="https://www.khanacademy.org/computer-programming/color-integrated-clock/6106724158275584">
+    <img width="200" src="https://www.khanacademy.org/computer-programming/color-integrated-clock/6106724158275584/5717271485874176.png"><br><br>
+    <span class="pt" width="200" align="center">COLOR-INTEGRATED CLOCK</span><br><br>
+  </a>
 
-    }};
+    <a target="_blank" href="https://www.khanacademy.org/computer-programming/cant-not-tweet-this-with-twitter/6217856067960832">
+    <img width="200" src="https://www.khanacademy.org/computer-programming/cant-not-tweet-this-with-twitter/6217856067960832/5676830073815040.png"><br><br>
+    <span class="pt" width="200" align="center">CAN'T NOT TWEET THIS (WITH TWITTER)</span><br><br>
+  </a>
 
-    var canvas = document.getElementById("pixel");
-    var processingInstance = new Processing(canvas, sketchProc);
- </script>
+    <a target="_blank" href="https://www.khanacademy.org/computer-programming/pixel-finder/5820243934052352">
+    <img width="200" src="https://www.khanacademy.org/computer-programming/pixel-finder/5820243934052352/5649050225344512.png"><br><br>
+    <span class="pt" width="200" align="center">THE PIXEL FINDER</span><br><br>
+  </a>
+
+      <a target="_blank" href="https://www.khanacademy.org/computer-programming/chaos-unlimited-warning-contains-flashing-images/5644137415180288">
+      <img width="200" src="https://www.khanacademy.org/computer-programming/chaos-unlimited-warning-contains-flashing-images/5644137415180288/5629499534213120.png"><br><br>
+      <span class="pt" width="200" align="center">CHAOS UNLIMITED</span><br><br>
+    </a>
+
+      <a target="_blank" href="https://www.khanacademy.org/computer-programming/infinite-pi-calculator/6209983137054720">
+      <img width="200" src="https://www.khanacademy.org/computer-programming/infinite-pi-calculator/6209983137054720/5707702298738688.png"><br><br>
+      <span class="pt" width="200" align="center">INFINITE PI CALCULATOR</span><br><br>
+    </a>
+
+  <footer>
+    <hr class="footer">
+    Problems with this webpage? Email <a href="mailto:thechipthrasher@gmail.com">thechipthrasher@gmail.com</a> for support.<p>
+  </footer>
+  </blockquote>
+
+  </body>
+
 </html>
