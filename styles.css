@@ -1,7 +1,7 @@
 body {
   background-color: #fff;
   font-family: "Helvetica", "Helvetica", sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   margin: 10px;
 }
 .title {
@@ -38,4 +38,7 @@ footer {
 .footer{
   margin-bottom:10px;
   margin-top:25px;
+}
+.grey {
+  color:gray;
 }
