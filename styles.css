@@ -42,3 +42,12 @@ footer {
 .grey {
   color:gray;
 }
+.pot {
+  background-color: #c24e00;
+  color: white;
+  margin-left:5px;
+  margin-right:5px;
+  padding:10px;
+  border: 20px;
+  font-size: 15px;
+}
