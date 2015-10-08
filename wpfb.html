@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title>WPFB | www.chipthrasher.com</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
+    <link href='favicon.ico'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,200,300,500,700,600' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript">
+    jQuery(function($) {
+      $('select.fragment').change(function() {
+        console.log($(this).val());
+        window.location.hash = $(this).val();
+      });
+    });
+    </script>
+    </head>
+    <body>
+        <div class="wpfb-header">
+        <h1><span style="background-color: darkred; padding:20px; color:#3db5ff;">WPFB</span><span style="color: darkred;"> WEB PROGRAMMING FOR BEGINNERS</span></h1>
+        </div>
+        <div class="main-body-quickjump">
+        <strong>QUICK JUMP: </strong>
+        <select class="fragment">
+          <option value="intro">Introduction</option>
+          <option value="les1">Ooga2</option>
+          <option value="les2">Ooga3</option>
+          <option value="ooga4">Ooga4</option>
+          <option value="ooga5">Ooga5</option>
+          <option value="ooga6">Ooga6</option>
+          <option value="ooga7">Ooga7</option>
+        </select>
+        </div>
+        <div class="main-body">
+          Welcome to Web Programming for Beginners, a free online web programming course for, as the title says, amateurs and beginners. Here you can learn HTML, CSS, and in the future when developement is complete, JavaScript. <br>
+        <p>
+        <h2 id="intro"><red>INTRODUCTION:</red> WELCOME TO WEB PROGRAMMING!</h2>
+        HTML, or the HyperText Markup Language, is the core language that all webpages use.
+        ...
+        </p>
+        <hr>
+        <p>
+          <h2 id="les1"><red>LESSON 1:</red> HTML REQUIREMENTS</h2>
+          The first things you will learn are the most basic tags that are required in every webpage. The first one, <span class="inline-code">&lt;html&gt;</span>, is the very basis for all other tags. It goes at the beginning and end of the webpage, like the sample below:<br><br>
+          <div class="code" style="width: 250px;">
+            &lt;html&gt;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;...<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;...<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt;<br/>&lt;html&gt;<br/>
+          </div><br>
+          The tags <span class="inline-code">&lt;head&gt;</span> and <span class="inline-code">&lt;body&gt;</span>, which are second-level tags (they are the second 'tab' up), are also required. <span class="inline-code">&lt;head&gt;</span> is where you put the webpage title, styles (later), scripts (later), and <span class="inline-code">&lt;meta&gt;</span> (we will cover this soon) information. The <span class="inline-code">&lt;body&gt;</span> tag is where the webpage content goes.
+
+        </p>
+        </div>
+    </body>
+</html>
