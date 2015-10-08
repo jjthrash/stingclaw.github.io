@@ -1,8 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,200,300,500,700,600);
 body {
   background-color: #fff;
-  font-family: "Helvetica", "Helvetica", sans-serif;
+  font-family: "Open Sans", "Helvetica", sans-serif;
   font-size: 13px;
   margin: 10px;
+
 }
 .title {
   font-weight: bold;
@@ -26,8 +28,8 @@ hr {
   color: gray;
 }
 a {
-  color: #fff;
   text-decoration: none;
+  color:#fff;
 }
 footer {
   background-color: #fff;
@@ -38,6 +40,12 @@ footer {
 .footer{
   margin-bottom:10px;
   margin-top:25px;
+}
+red {
+  color:darkred;
+}
+h2 {
+  color: #3db5ff;
 }
 .grey {
   color:gray;
@@ -50,4 +58,46 @@ footer {
   padding:10px;
   border: 20px;
   font-size: 15px;
+}
+.wpfb-header {
+  height: 90px;
+  background-color: #3db5ff;
+  margin-left:20px;
+  margin-right: 20px;
+  padding-top:20px;
+  font-family: "Open Sans",sans-serif;
+}
+.main-body {
+  background-color: #ddd;
+  margin-left:20px;
+  margin-right: 20px;
+  margin-top:20px;
+  padding: 20px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 25px;
+}
+.main-body-quickjump {
+  background-color: darkred;
+  color: #fff;
+  margin-left:20px;
+  margin-right: 20px;
+  margin-top:10px;
+  padding: 10px;
+  padding-left: 20px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 25px;
+}
+.code {
+  padding: 10px;
+  border-radius: 10px;
+  color:#000;
+  background-color: #3db5ff;
+  font-family:"Source Code Pro", monospace;
+}
+.inline-code {
+  padding: 2px;
+  border-radius: 5px;
+  color:#000;
+  background-color: #3db5ff;
+  font-family:"Source Code Pro", monospace;
 }
