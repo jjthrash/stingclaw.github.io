@@ -1,16 +1,20 @@
 <html>
   <head>
     <title>WPFB | www.chipthrasher.com</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Chip Thrasher">
+    <meta name="keywords" content="web programming, beginners, github, chip, thrasher, chip thrasher, html, css, js, html5">
+    <meta name="description" content=""
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://raw.githubusercontent.com/stingclaw/stingclaw.github.io/master/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
     <link href='favicon.ico'>
+    <link rel="stylesheet" href="http://www.writeurl.com/style.css" type="text/css">
+
     <style>
     .wpfb-header {
       height: 90px;
       background-color: #3db5ff;
-      margin-left:20px;
-      margin-right: 20px;
       padding-top:20px;
       font-family: "Open Sans",sans-serif;
     }
@@ -23,12 +27,11 @@
       font-family: "Open Sans", sans-serif;
       line-height: 25px;
     }
-    .main-body-quickjump {
+    #main-body-quickjump {
+      position: static;
       background-color: darkred;
       color: #fff;
-      margin-left:20px;
-      margin-right: 20px;
-      margin-top:10px;
+      width: 100%;
       padding: 10px;
       padding-left: 20px;
       font-family: "Open Sans", sans-serif;
@@ -58,6 +61,7 @@
         console.log($(this).val());
         window.location.hash = $(this).val();
       });
+
     });
     </script>
     </head>
@@ -65,17 +69,28 @@
         <div class="wpfb-header">
         <h1><span style="background-color: darkred; padding:20px; color:#3db5ff;">WPFB</span><span style="color: darkred;"> WEB PROGRAMMING FOR BEGINNERS</span></h1>
         </div>
-        <div class="main-body-quickjump">
+        <div id="main-body-quickjump">
         <strong>QUICK JUMP: </strong>
         <select class="fragment">
           <option value="intro">Introduction</option>
-          HTML
-          <option value="les1">HTML Requirements</option>
-          <option value="les2">Ooga3</option>
-          <option value="ooga4">Ooga4</option>
-          <option value="ooga5">Ooga5</option>
-          <option value="ooga6">Ooga6</option>
-          <option value="ooga7">Ooga7</option>
+          <option value="instructions">Instructions on using this website</option>
+          <option value="les1">1 - Intro to HTML</option>
+          <option value="les2">2 - Text Style Tags</option>
+          <option value="les3">3 - HTML Section Tags</option>
+          <option value="les4">4 - HTML Classes and IDs</option>
+          <option value="les5">5 - HTML Tables</option>
+          <option value="les6">6 - HTML Miscellaneous Tags (Part 1)</option>
+          <option value="les7">7 - HTML Miscellaneous Tags (Part 2)</option>
+          <option value="les8">8 - HTML &lt;style&gt; Tags</option>
+          <option value="les9">9 - Intro to CSS</option>
+          <option value="les10">10 - CSS</option>
+          <option value="les">11 - CSS</option>
+          <option value="les">12 - CSS</option>
+          <option value="les">13 - CSS</option>
+          <option value="les"></option>
+          <option value="les"></option>
+          <option value="les"></option>
+          <option value="les"></option>
         </select>
         </div>
         <div class="main-body">
@@ -84,10 +99,21 @@
         <h2 id="intro"><red>INTRODUCTION:</red> WELCOME TO WEB PROGRAMMING!</h2>
         HTML, or the HyperText Markup Language, is the core language that all webpages use.
         ...
+        <h3 id="instructions"><red>INSTRUCTIONS ON USING AND UNDERSTANDING THIS WEBSITE</red></h3>
+        Before you begin learning to program and actively programming, there are a few instructions that need to be addressed regarding the use and comprehension of this website. First, examples of code are read <span class="inline-code">like this,</span> with a blue background and in the appropriate text style. Paragraphs of code are defined similar to the previous example:
+        <div class="code" style="width:auto;">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br>
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br>
+        nisi ut aliquip ex ea commodo consequat.<br>
+        </div>
+        Also, there are a few interactive web editors that act as instant practice. Operating these is simple (especially for those of you who have used <a href="http://www.khanacademy.org" target="_blank" style="color:#888;">Khan Academy</a>'s HTML editor before): type in the web code on the left side and the result will come on the right.<br>
+        One note: the HTML editors are
         </p>
         <hr>
         <p>
-          <h2 id="les1"><red>LESSON 1:</red> HTML REQUIREMENTS</h2>
+          <h2 id="les1"><red>LESSON 1:</red> INTRO TO HTML</h2>
+          Welcome to HTML! HTML uses "tags," or words inside angle brackets (&lt;&gt;)
           The first things you will learn are the most basic tags that are required in every webpage. The first one, <span class="inline-code">&lt;html&gt;</span>, is the very basis for all other tags. It goes at the beginning and end of the webpage, like the sample below:<br><br>
           <div class="code" style="width: 250px;">
             &lt;html&gt;<br/>
@@ -99,7 +125,7 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt;<br/>&lt;html&gt;<br/>
           </div><br>
           The tags <span class="inline-code">&lt;head&gt;</span> and <span class="inline-code">&lt;body&gt;</span>, which are second-level tags (they are the second 'tab' up), are also required. <span class="inline-code">&lt;head&gt;</span> is where you put the webpage title, styles (later), scripts (later), and <span class="inline-code">&lt;meta&gt;</span> (we will cover this soon) information. The <span class="inline-code">&lt;body&gt;</span> tag is where the webpage content goes.
-
+          <br>
         </p>
         </div>
     </body>
