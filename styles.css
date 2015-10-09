@@ -37,6 +37,7 @@ footer {
   font-family: "Open Sans", "Helvetica", sans-serif;
   font-size: 12px;
   text-align: center;
+    background-blend-mode: darken;
 }
 .footer{
   margin-bottom:10px;
