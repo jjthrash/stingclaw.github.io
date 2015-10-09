@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,200,300,500,700,600);
 body {
-  background-color: #fff;
   font-family: "Open Sans", "Helvetica", sans-serif;
   font-size: 13px;
   margin: 10px;
@@ -35,8 +34,7 @@ a {
   color:#fff;
 }
 footer {
-  background-color: #fff;
-  font-family: "Helvetica", "Helvetica", sans-serif;
+  font-family: "Open Sans", "Helvetica", sans-serif;
   font-size: 12px;
   text-align: center;
 }
@@ -88,7 +86,7 @@ h2 {
   padding: 10px;
   padding-left: 20px;
   font-family: "Open Sans", sans-serif;
-  line-height: 25px;
+  line-height: 24px;
 }
 .code {
   padding: 10px;
@@ -103,4 +101,15 @@ h2 {
   color:#000;
   background-color: #3db5ff;
   font-family:"Source Code Pro", monospace;
+}
+footer .indent {
+  margin-left: 21%;
+  text-align: center;
+  text-align-last: center;
+}\
+footer a {
+  color: #ddd;
+}
+footer {
+  color: #000;
 }

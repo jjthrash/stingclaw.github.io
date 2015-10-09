@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="http://www.writeurl.com/style.css" type="text/css">
 
     <style>
+    body {
+      background: linear-gradient(to bottom, #e3e3e3,#555);
+    }
     .wpfb-header {
       height: 90px;
       background-color: #3db5ff;
@@ -23,7 +26,7 @@
       margin-right: 0%;
     }
     .main-body {
-      background-color: #ddd;
+      background-color: #eee;
       margin-top:20px;
       padding: 20px;
       font-family: "Open Sans", sans-serif;
@@ -42,7 +45,19 @@
       margin-top: 20px;
       top:0px;
       left:0px;
-
+      width:15%;
+    }
+    .main-body-quickjump-below {
+      background-color: darkred;
+      color: #fff;
+      padding: 10px;
+      padding-left: 20px;
+      font-family: "Open Sans", sans-serif;
+      line-height: 25px;
+      position:fixed;
+      margin-top: 20px;
+      left:0px;
+      top:70px;
       width:15%;
     }
     .code {
@@ -106,6 +121,10 @@
           <option value="les"></option>
         </select>
         </div>
+        <div class="main-body-quickjump-below">
+          <strong style="font-size:1.4em; line-height:2em;"><span style="font-family:'Oswald','Helvetica',sans-serif;font-size:1.1em;">ABOUT WPFB:</strong></span><br>
+          Chip Thrasher created WPFB in October 2015 originally as a course for friends and family to learn web programming. It is free to use and is in progress currently!
+        </div>
         <div class="main-body">
           Welcome to Web Programming for Beginners, a free online web programming course for, as the title says, amateurs and beginners. Here you can learn HTML, CSS, and in the future when developement is complete, JavaScript. <br>
         <p>
@@ -141,6 +160,7 @@
           <br>
         </p>
         </div>
-      </div>
+        <footer class="indent" style="color: #fff;margin-top:1em;line-height:25px;text-align:center; margin-left:21%;">
+        <a href="http://www.chipthrasher.com">HOME</a> | <a href="http://www.khanacademy.org/profile/chipthrasher" target="_blank">KHANACADEMY PROFILE</a> | <a href="https://github.com/stingclaw/stingclaw.github.io/blob/master/wpfb.html" target="_blank">WPFB GITHUB SOURCE CODE</a></footer>
     </body>
 </html>
