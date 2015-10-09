@@ -6,6 +6,9 @@ body {
   margin: 10px;
 
 }
+.fragment {
+  width:99%;
+}
 .title {
   font-weight: bold;
   font-variant-caps: none;

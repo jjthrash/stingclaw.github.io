@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <meta name="author" content="Chip Thrasher">
     <meta name="keywords" content="web programming, beginners, github, chip, thrasher, chip thrasher, html, css, js, html5">
-    <meta name="description" content=""
+    <meta name="description" content="">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://raw.githubusercontent.com/stingclaw/stingclaw.github.io/master/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
     <link href='favicon.ico'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://www.writeurl.com/style.css" type="text/css">
 
     <style>
@@ -16,26 +17,33 @@
       height: 90px;
       background-color: #3db5ff;
       padding-top:20px;
-      font-family: "Open Sans",sans-serif;
+      font-family: "Oswald",sans-serif;
+      font-weight:normal;
+      margin-left:21%;
+      margin-right: 0%;
     }
     .main-body {
       background-color: #ddd;
-      margin-left:20px;
-      margin-right: 20px;
       margin-top:20px;
       padding: 20px;
       font-family: "Open Sans", sans-serif;
       line-height: 25px;
+      margin-left:20%;
+      margin-right: 0%;
     }
     #main-body-quickjump {
-      position: static;
       background-color: darkred;
       color: #fff;
-      width: 100%;
       padding: 10px;
       padding-left: 20px;
       font-family: "Open Sans", sans-serif;
       line-height: 25px;
+      position:fixed;
+      margin-top: 20px;
+      top:0px;
+      left:0px;
+
+      width:15%;
     }
     .code {
       padding: 10px;
@@ -50,6 +58,10 @@
       color:#000;
       background-color: #3db5ff;
       font-family:"Source Code Pro", monospace;
+    }
+    .overhead-all {
+
+      margin-right: 10%;
     }
     </style>
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,200,300,500,700,600' rel='stylesheet' type='text/css'>
@@ -66,12 +78,14 @@
     </script>
     </head>
     <body>
+      <div class="overhead-all" id="none">
         <div class="wpfb-header">
         <h1><span style="background-color: darkred; padding:20px; color:#3db5ff;">WPFB</span><span style="color: darkred;"> WEB PROGRAMMING FOR BEGINNERS</span></h1>
         </div>
         <div id="main-body-quickjump">
-        <strong>QUICK JUMP: </strong>
+        <strong>QUICK JUMP: <br></strong>
         <select class="fragment">
+          <option value="none" style="color:#aaa;">- Choose One -</option>
           <option value="intro">Introduction</option>
           <option value="instructions">Instructions on using this website</option>
           <option value="les1">1 - Intro to HTML</option>
@@ -128,5 +142,6 @@
           <br>
         </p>
         </div>
+      </div>
     </body>
 </html>
