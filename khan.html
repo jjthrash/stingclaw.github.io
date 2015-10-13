@@ -5,12 +5,18 @@
     <link href='favicon.ico'>
     <style>
       .profile-container {
-
+        height:160px;
+        background-color: #fff;
+        width:840px;
+        background-size: 100%;
+        background-repeat: repeat-y;
+        background-image: url(https://www.khanacademy.org/images/profile/backgrounds/bg-photon-2.jpg);
       }
       .khan-header {
         background-color:#fff;
         height:50px;
-        margin:0px;
+        margin:auto;
+        width: 840px;
       }
       .khan-header-logo {
         padding-top:10px;
@@ -19,8 +25,8 @@
       .profile-image {
         float:left;
         background-color: #3b4263;
-        margin-top:20px;
-        margin-left: 10px;
+        margin-top:15px;
+        margin-left: 20px;
         margin-bottom: 20px;
         padding:6px;
         padding-top:15px;
@@ -30,27 +36,119 @@
       }
       body {
         background-color: #ddd;
+        margin:0px;
+        font-family:"Open Sans", sans-serif;
       }
       .profile-info-text {
-        font-family:"Open Sans";
+        padding:25px;
+        margin-left:120px;
+        font-family: 'Open Sans', sans-serif;
+        color:#fff;
+      }
+      .pit-name {
+        font-size:25px;
+      }
+      .pit-username {
+        font-size:1em;
+        color: #ccc;
+      }
+      .container {
+        width: 100%;
+        margin: auto;
+      }
+      .profile {
+        width:840px;
+        margin:auto;
+      }
+      .pit-bio {
+        padding-top:5px;
+        color:#fff;
+        font-size:0.9em;
+      }
+      .pit-location {
+        padding-top:10px;
+        color: #ccc;
+        font-size:0.7em;
+      }
+      .streak {
+        padding:0px;
+        background-color: darkorange;
+        color:#fff;
+        border-radius: 4px;
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-left: 2px;
+        margin-right:2px;
+      }
+      .points {
+        padding:0px;
+        background-color: #00bbff;
+        color:#fff;
+        border-radius: 4px;
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-left: 2px;
+        margin-right:2px;
+      }
+      .badgesmall img {
+        height:1.05em;
+      }
+      .profile-statistics {
+        float:right;
+      }
+      .badgesmall {
+        color:#ccc;
+      }
+      .pages {
+        background-color: #fff;
+        height: 60px;
+        width:100%;
+        margin:auto;
+        font-size: 12px;
+      }
+      td {
+        text-align: center;
       }
     </style>
   </head>
   <body>
+    <div class="container">
     <div class="khan-header">
       <a target="_blank" href="http://www.khanacademy.org">
         <img src="http://p6.zdassets.com/hc/settings_assets/526991/200061184/3t62mqN9s2QjpyHy0CTEcg-smaller_logo.png" class="khan-header-logo" height="30"
          onmouseover="this.src='https://raw.githubusercontent.com/stingclaw/stingclaw.github.io/master/logo-hover.png';"
          onmouseout="this.src='http://p6.zdassets.com/hc/settings_assets/526991/200061184/3t62mqN9s2QjpyHy0CTEcg-smaller_logo.png';">
+
     </img>
-    </div></a>
-    <div class="profile-container">
+  </div></a>
+    <div class="profile-container" style="width: 100%; background-image: url(https://www.khanacademy.org/images/profile/backgrounds/bg-photon-2.jpg);">
       <div class="profile">
-        <img class="profile-image" width="80"src="https://www.khanacademy.org/images/avatars/svg/cs-hopper-cool.svg">
+        <img class="profile-image" width="80" src="https://www.khanacademy.org/images/avatars/svg/cs-hopper-cool.svg">
         <div class="profile-info-text">
+          <span class="pit-name">Chip Thrasher</span>&nbsp;<span class="pit-username">@chipthrasher</span><br>
+          <div class="pit-bio">I prefer programming to math, but will do math.<br>www.chipthrasher.com</div>
+          <div class="pit-location">Mebane, NC, United States
+          <div class="profile-statistics">
+            <span class="streak">1</span>
+            <span class="points">1,379,919</span>
+            <span class="badgesmall"><img src="https://www.khanacademy.org/images/badges/master-challenge-blue-60x60.png"> 50
+            <img src="https://www.khanacademy.org/images/badges/eclipse-60x60.png"> 0
+            <img src="https://www.khanacademy.org/images/badges/sun-60x60.png"> 9
+            <img src="https://www.khanacademy.org/images/badges/earth-60x60.png"> 15
+            <img src="https://www.khanacademy.org/images/badges/moon-60x60.png"> 92
+            <img src="https://www.khanacademy.org/images/badges/meteorite-60x60.png"> 153
+            </span>
+          </div>
+          </div>
         </div>
       </div>
+      <table class="pages">
+        <tr>
+          <td>Home</td>
+          <td>Profile</td>
+        </tr>
+      </table>
     </div>
-
+  </div>
   </body>
 </html>
