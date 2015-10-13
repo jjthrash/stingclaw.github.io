@@ -81,6 +81,7 @@ h2 {
 .main-body-quickjump {
   background-color: darkred;
   color: #fff;
+  top:30px;
   margin-left:20px;
   margin-right: 20px;
   margin-top:10px;
