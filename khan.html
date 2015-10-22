@@ -4,12 +4,16 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
     <link href='favicon.ico'>
     <style>
+      .site-container {
+        width:840px;
+        margin:auto;
+        text-align:left;
+      }
       .profile-container {
         height:160px;
         background-color: #fff;
         width:840px;
         background-size: 100%;
-        background-repeat: repeat-y;
         background-image: url(https://www.khanacademy.org/images/profile/backgrounds/bg-photon-2.jpg);
       }
       .khan-header {
@@ -80,6 +84,15 @@
         margin-left: 2px;
         margin-right:2px;
       }
+      .badge {
+        background-color: #ddd;
+        border-radius:10px;
+        text-align:center;
+        color:#777;
+        padding:2px;
+        margin-left:2px;
+        margin-right:2px;
+      }
       .points {
         padding:0px;
         background-color: #00bbff;
@@ -101,13 +114,25 @@
       }
       .pages {
         background-color: #fff;
-        height: 60px;
-        width:100%;
+        height: 35px;
         margin:auto;
-        font-size: 12px;
+        font-size: 13px;
       }
       td {
         text-align: center;
+        width:20px;
+        padding:4px;
+      }
+      .current-cell {
+        border-bottom:3px solid green;
+        font-weight: bold;
+      }
+      table {
+        background-color: #ddd;
+        width: 100%;
+      }
+      .margint {
+        width:20%;
       }
     </style>
   </head>
@@ -144,10 +169,33 @@
       </div>
       <table class="pages">
         <tr>
-          <td>Home</td>
+          <td class="margint"></td>
+          <td class="current-cell">Home</td>
           <td>Profile</td>
+          <td>Badges</td>
+          <td>Progress</td>
+          <td>Discussion</td>
+          <td>Projects</td>
+          <td>Coaches</td>
+          <td class="margint"></td>
         </tr>
       </table>
+      <div class="site-container">
+      Text here. THIS IS DEFINITELY IN PROGRESS!! :)
+      <h2>BADGE COUNT</h2>
+      <table style="width:50%;">
+        <tr>
+          <td class="badge">??
+          <br><img src="https://www.khanacademy.org/images/badges/master-challenge-blue-60x60.png"></td>
+          <td class="badge">0
+          <br><img src="https://www.khanacademy.org/images/badges/eclipse-60x60.png"></td>
+          <td class="badge">??
+          <br><img src="https://www.khanacademy.org/images/badges/sun-60x60.png"></td>
+          <td class="badge">??
+          <br><img src="https://www.khanacademy.org/images/badges/earth-60x60.png"></td>
+        </tr>
+      </table>
+    </div>
     </div>
   </div>
   </body>
