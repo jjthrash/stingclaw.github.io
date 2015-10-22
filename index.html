@@ -9,7 +9,7 @@
     <meta name="description" content="Welcome to www.chipthrasher.com! View: ProcessingJS Archive; Simulated Khan Academy Profile; StereoField">
     <style>
     body {
-  background-color: #fff;
+  background-color: #c9e5f3;
   font-family: "Open Sans", "Helvetica", sans-serif;
   font-size: 13px;
   margin: 10px;
@@ -29,6 +29,7 @@
 hr {
   margin-top: 10px;
   margin-bottom: 25px;
+  color:#ccc;
 }
 .pt {
   font-weight:bold;
@@ -44,7 +45,6 @@ a {
   color: #fff;
 }
 footer {
-  background-color: #fff;
   font-family: "Helvetica", "Helvetica", sans-serif;
   font-size: 12px;
   text-align: center;
@@ -52,6 +52,12 @@ footer {
 .footer{
   margin-bottom:10px;
   margin-top:25px;
+}
+.site-container {
+  width:85%;
+  margin:auto;
+  background-color: #c6b7a4;
+  padding:20px;
 }
       }
       .pages {
@@ -63,68 +69,68 @@ footer {
         padding-right:10px;
 
       }
-      .homer {
-        margin-top:0px;
-        margin-bottom:0px;
-      }
+
       .big {
         padding: 10px;
         margin:0px;
       }
-      .pot {
-        background-color: #444;
-        color: white;
-        margin-left:5px;
-        margin-right:5px;
-        padding:10px;
-        border: 20px;
-        font-size: 15px;
+      .sitemap {
+        left:0px;
+        position:relative;
+        background-color: #c9e5f3;
+        height:200px;
+        width:150px;
+        padding: 10px;
+        margin-right:10px;
+        overflow-y:scroll;
+        overflow-x: hidden;
       }
-      .badge {
-        background-color: #ddd;
-        border-radius:10px;
-        text-align:center;
-        color:#777;
-        padding:2px;
-        margin-left:2px;
-        margin-right:2px;
+      .site {
+        background-color: #c6b7a4;
+        color:#000;
+        font-weight: bold;
+        padding:10px;
+      }
+      .site-head {
+        background-color: #c6b7a4;
+        color:#000;
+        font-weight: bold;
+        padding:5px;
+        text-align: center;
+        margin:0px;
+      }
+      .right {
+        position: absolute;
+        margin-top:140px;
+        width:80%;
+        top:0px;
+        margin-left:200px;
       }
     </style>
   </head>
   <body>
-    <blockquote>
+    <div class="site-container">
+        <div class="site-content">
       <div class="title">
         www.chipthrasher.com
       </div>
       <hr class="footer">
-      <table>
-        <tbody>
-          <tr>
-            <td class="pot"><a href="http://www.chipthrasher.com/wpfb.html">WEB PROGRAMMING FOR BEGINNERS</a></td>
-            <td class="pot"><a href="http://www.chipthrasher.com/pjs.html">PROCESSING.JS ARCHIVE</a></td>
-          </tr>
-        </tbody>
-      </table>
-      <br>
-      ...Content in Progress...
-      <p>
-        <h2>BADGE COUNT</h2>
-        <table>
-          <tr>
-            <td class="badge">??
-            <br><img src="https://www.khanacademy.org/images/badges/master-challenge-blue-60x60.png"></td>
-            <td class="badge">0
-            <br><img src="https://www.khanacademy.org/images/badges/eclipse-60x60.png"></td>
-            <td class="badge">??
-            <br><img src="https://www.khanacademy.org/images/badges/sun-60x60.png"></td>
-            <td class="badge">??
-            <br><img src="https://www.khanacademy.org/images/badges/earth-60x60.png"></td>
-          </tr>
-        </table>
-      </p>
-      <footer style="color:black;">
+      <div class="sitemap">
+        <p class="site-head">S I T E M A P</p>
+        <p class="site">HOME</p>
+        <p class="site">WPFB</p>
+        <p class="site">PROCESSING.JS ARCHIVE</p>
+      </div>
+      <div class="right">
+        Welcome to this website! As you can see, this webpage is currently under construction, and not even the sitemap is working! :) However, you can get to other places with these things:
+        <br>Add "khan.html" or "wpfb.html" to the end of the URL. More...
+      ...Content Here...
+      </div>
+      <footer>
         <hr class="footer">
         <a style="color:black;" target="_blank" href="https://raw.githubusercontent.com/stingclaw/stingclaw.github.io/master/index.html">VIEW SOURCE</a>
       </footer>
+    </div>
+    </div>
   </body>
 </html>
