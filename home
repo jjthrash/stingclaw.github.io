@@ -3,6 +3,7 @@
     <title>Home | www.chipthrasher.com</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
     <link href="index.css" rel="stylesheet">
+    <link href="viewports.css" rel="stylesheet">
     <link href='favicon.ico'>
     <meta name="author" content="Chip Thrasher">
     <meta name="keywords" content="chip, thrasher, chip thrasher, programming, khan, academy, khan academy, html, css, javascript, js, chipster, hipster, hopper">
@@ -14,21 +15,16 @@
         www.chipthrasher.com
       </h1>
       <div class="content">
-        <h2>Somewhat Chronologically Organized Set of Current Impersonal Events, Also Somewhat Commonly Known as 'Blog Posts'</h2>
-        <h3>October 24, 2015 - 2:46</h3>
-        <p>I pause to tell of <a href="http://sourceforge.net/projects/virtualt/">VirtualT</a>'s working condition (Quite a sentence there). "What be Virtual tea?" you say. "Is that some sort of simulated teapot or something?" And I will tell you no, that is not what it is. It is an emulator for the TRS-80 Model 100. In other words (or in modern culture words), it's just a big old hunk o' plastic that don't even do nothin'. And they call it a "laptop" when you can't even close it. I mean, seriously, who would want to even use that?</p>
+        <h3>October 24, 2015</h3>
+        <p>I pause to tell of <a target="_blank" href="http://sourceforge.net/projects/virtualt/">VirtualT</a>'s working condition (Quite a sentence there). "What be Virtual tea?" you say. "Is that some sort of simulated teapot or something?" And I will tell you no, that is not what it is. It is an emulator for the TRS-80 Model 100. In other words (or in modern culture words), it's just a big old hunk o' plastic that don't even do nothin'. And they call it a "laptop" when you can't even close it. I mean, seriously, who would want to even use that?</p>
         <p>In my words, that is very similar to what "smartphones" are, except I would change a few things:</p>
         <blockquote>
           <p>It's just a little old hunk o' metal. And they call it "smart" when it don't even know nutin'! I mean seriously, why would anyone use that?</p>
         </blockquote>
-          <h3>October 23, 2015 - 10:23 PM</h3>
+          <h3>October 23, 2015</h3>
           <p>The air is dank, and my tired, tired mind, amidst the fiery whirlpool of murky but fading thoughts, senses an idea coming on. Whether it is a good idea I know not. And no, I am not a descriptive writer. Maybe I am, though, and you didn't, perhaps, think that. But if I am to fulfill the role of a descriptive writer, or at least a good one, I must address the questions of my reader(s). The reader may be asking a number of questions, but the quesion in <em>my</em> mind vastly overwhelms the great globules of other stuff. That was not well timed. (Neither that nor the fact that I do not write "blog posts" at 10:23 PM) I digress. The question in my mind, as I was saying, is yet to be asked... Maybe it's about time you asked it, Chip? Okay, whatever. Here it is: Should I make a somewhat chronologically organized set of current impersonal events, also somewhat commonly known as "blog posts?"</p>
           <p>The point is that it seems I am writing a blog. And no, I do not write on this website all about my latest scrapbooking projects (not that I have anything against anyone who does scrapbooking) - it is simply an archive of things to fill up the gigabytes on this web server. Sort of.</p>
       </div>
-
-      <footer>
-        <a style="color:black;" target="_blank" href="https://raw.githubusercontent.com/stingclaw/stingclaw.github.io/master/index.html">VIEW SOURCE</a>
-      </footer>
     </div>
   </body>
 </html>

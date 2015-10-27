@@ -1,0 +1,24 @@
+@media screen and (min-width:0px) and (max-width:499px) {
+  .site-container {
+  }
+  body {
+  }
+}
+
+@media screen and (min-width:500px) and (max-width:839px) {
+  .site-container {
+    width:80%;
+    margin: auto;
+  }
+  body {
+  }
+}
+
+@media screen and (min-width:840px) {
+  .site-container {
+    width:700px;
+    margin: auto;
+  }
+  body {
+  }
+}
