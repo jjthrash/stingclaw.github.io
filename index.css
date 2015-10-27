@@ -1,0 +1,19 @@
+/** Readable version here: "index-readable.css" **/
+
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,200,300,500,700,600);
+body {
+  background-color: #535353;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.site-container {
+  background-color: rgb(196, 196, 196);
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 10px 10px 8px #222;
+}
+.content {
+  background-color: rgb(182, 182, 182);
+  padding:10px;
+}
+
+/** Standard HTML Styles **/
